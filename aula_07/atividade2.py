@@ -7,7 +7,7 @@ if pesopeixes > PESO_LIMITE:
         e = x - PESO_LIMITE
         m = e * 4.0
         return m
-
-
-multa = multaexcesso(pesopeixes)
-print(f'O peso de peixes excedeu o limite, você recebeu uma multa de: R${multa:.2f}')
+    multa = multaexcesso(pesopeixes)
+    print(f'O peso de peixes excedeu o limite, você recebeu uma multa de: R${multa:.2f}')
+else:
+    print('Pesca liberada.')
