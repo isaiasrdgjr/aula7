@@ -11,4 +11,4 @@ if pesopeixes > PESO_LIMITE:
     multa = multaexcesso(pesopeixes)
     print(f'O peso de peixes excedeu o limite, você recebeu uma multa de: R${multa:.2f}')
 else:
-    print('Pesca liberada.')
+    print('Pesca liberada. ')
